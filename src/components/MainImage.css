@@ -1,0 +1,13 @@
+.main-image {
+    margin-top: 20px; /* 调整空隙大小 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* 调整宽度 */
+    height: auto; /* 保持纵横比 */
+  }
+  
+  .header-container {
+    background-color: #d3d8db;
+  }
+  

@@ -1,0 +1,20 @@
+.header-menu {
+    display: flex !important;
+    align-items: center !important;
+    background-color: #d5dcdc; /* 添加背景颜色 */
+    padding: 10px; /* 添加一些填充，使内容不贴边 */
+  }
+  
+  .header-item {
+    flex-grow: 1;
+  }
+  
+  .header-menu-right {
+    display: flex !important;
+    align-items: center !important;
+  }
+  
+  .header-item .ui.button {
+    margin-left: 10px;
+  }
+  

@@ -1,0 +1,16 @@
+
+  
+  .see-all-articles {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 10px;
+    background-color: #b9b2b2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .see-all-articles:hover {
+    background-color: #bbb;
+  }
+  

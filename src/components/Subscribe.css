@@ -1,0 +1,38 @@
+.subscribe-segment {
+    padding: 20px;
+    background-color: #d3d8db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px; 
+}
+
+.subscribe-text {
+    margin-right: 10px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.subscribe-input-button {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.subscribe-input {
+    flex: 1;
+    margin-right: 0; 
+}
+
+.subscribe-button {
+    flex-shrink: 0;
+    background-color: #b3b7bb !important;
+    color: black !important;
+}
