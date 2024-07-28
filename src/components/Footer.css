@@ -1,42 +1,68 @@
-.footer-segment {
-    background-color: #175b5a !important;
-    color: white !important;
-    padding: 10px;
+.footer-container {
+    background-color: #175b5a;
+    color: white;
+    padding: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 2em; /* 添加这一行 */
 }
 
-.footer-segment .header {
-    font-size: 1.2em !important;
-    margin-bottom: 0.5em !important;
+.footer-column {
+    flex: 1;
+    margin: 1em;
 }
 
-.footer-segment .list a {
-    color: white !important;
-    font-size: 1em !important;
-    line-height: 1.5 !important;
+.footer-column h4 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
 }
 
-.footer-segment .list .item {
-    margin: 0.5em 0 !important; /* 增加上下边距 */
+.footer-column ul {
+    list-style: none;
+    padding: 0;
 }
 
-.footer-segment .list .horizontal-list a {
-    color: white !important;
-    margin: 0 1em !important;
-    font-size: 0.9em !important;
+.footer-column ul li {
+    margin: 0.5em 0;
 }
 
-.footer-segment .ui.divided.list .item:after {
-    display: none !important;
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.5;
 }
 
-.footer-segment .ui.horizontal.divided.list .item:after {
-    background: white !important;
+.footer-bottom {
+    text-align: center;
+    width: 100%;
+    margin-top: 2em;
 }
 
-.footer-segment .ui.horizontal.divided.list {
-    padding-top: 1em !important;
+.footer-bottom p {
+    margin: 0;
 }
 
-.footer-segment .list .item .icon {
-    margin-right: 0.5em !important;
+.footer-bottom .horizontal-list {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom .horizontal-list li {
+    margin: 0 1em;
+}
+
+.footer-bottom .horizontal-list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.footer-column ul li a .icon {
+    margin-right: 0.5em;
 }
